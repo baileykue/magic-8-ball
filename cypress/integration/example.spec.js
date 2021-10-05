@@ -6,7 +6,7 @@ describe('Example Test', ()=>{
 
     describe('HTML elements', ()=>{   
         it('contains body element', ()=>{
-            cy.get('.main-logo').should('be.visible');
+            cy.get('#body').should('be.visible');
         });
     });
 });
