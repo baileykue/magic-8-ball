@@ -2,6 +2,28 @@
 
 ## Making a plan
 
+### Magic 8 Ball
+
+### what html elements do i need
+* text area for question --statis
+* button --static
+* paragrapgh to hold answer -- dynamic
+
+### what state do i need
+* answer
+* random index
+
+### what events am i listening for? what happens when those events are fired?
+* button click
+    * generate a random index
+    * get the value of the answer
+    * display the answer on the page
+
+
+
+
+
+
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
 1) **Make a drawing of your app. Simple "wireframes"**
