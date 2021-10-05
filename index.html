@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">    
     <title>magic 8 Ball</title>
 </head>
 
 <body id="body">
     <header>
-        <h1>Magic 8 Ball</h1>
+        <h1 class="letter">Magic 8 Ball</h1>
     </header>
     <main>
-        <input id="question" placeholder="Ask me something">
-        <button id="button">Submit</button>
-        <p id="answer"></p>
+        <img class="shake" id="magic-8-ball" src="./assets/pink-8-ball-front.png" alt="front of pink magic 8 ball">
+        <br>
+        <input class="letter" id="question" placeholder="Ask me something">
+        <button class="letter" id="button">Submit</button>
+        <p class="letter" id="answer"></p>
     </main>
     <script type="module" src="./app.js"></script>
 </body>
