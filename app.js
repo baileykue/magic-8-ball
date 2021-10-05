@@ -7,9 +7,8 @@ const getRandomNumber = (max)=>{
     return Math.floor(Math.random() * max);
 };
 
-//let randomIdx = getRandomNumber(answers.length);
-
-
+const sound = document.getElementById('sound');
+const imgShake = document.getElementById('magic-8-ball');
 const answer = document.getElementById('answer');
 
 const button = document.getElementById('button');
@@ -17,6 +16,10 @@ const input = document.getElementById('question');
 
 button.addEventListener('click', ()=>{
   const randomAnswer = getRandomNumber(answers.length);
-    input.value = '';
-    return answer.textContent = answers[randomAnswer];
+  imgShake.classList.remove('shake');
+  void imgShake.offsetWidth;
+  imgShake.classList.add('shake');
+  input.value = '';
+  sound.play();
+  return answer.textContent = answers[randomAnswer];
 });

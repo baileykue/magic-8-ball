@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    text-shadow: 2px 2px #f56af5;
+}
+
 img {
     width: 400px;
     margin: 20px;
@@ -24,7 +28,6 @@ button {
 button:hover {
     background-image: linear-gradient(to bottom right, #3BF4FB, #826AED);
     color: #0F084B;
-    
 }
 
 .letter {
@@ -32,13 +35,12 @@ button:hover {
     color: #0D0221;
 }
 
-.shake:hover {
+.shake {
 
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
-  
     /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
+    animation-iteration-count: revert;
   }
   
 
