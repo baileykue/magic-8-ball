@@ -15,11 +15,11 @@ const button = document.getElementById('button');
 const input = document.getElementById('question');
 
 button.addEventListener('click', ()=>{
-  const randomAnswer = getRandomNumber(answers.length);
-  imgShake.classList.remove('shake');
-  void imgShake.offsetWidth;
-  imgShake.classList.add('shake');
-  input.value = '';
-  sound.play();
-  return answer.textContent = answers[randomAnswer];
+    const randomAnswer = getRandomNumber(answers.length);
+    imgShake.classList.remove('shake');
+    void imgShake.offsetWidth;
+    imgShake.classList.add('shake');
+    input.value = '';
+    sound.play();
+    return answer.textContent = answers[randomAnswer];
 });
